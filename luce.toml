@@ -1,0 +1,6 @@
+[package]
+name = "luce_config"
+source = "src"
+
+[exports]
+toml = "luce_config.toml"
