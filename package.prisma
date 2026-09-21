@@ -1,0 +1,12 @@
+#prisma 4.0
+def package "luce-config" {
+    str owner = "dymokomi"
+    str version = "0.1.0"
+    str language = "luce"
+    str description = "A small, reusable configuration reader for Luce applications."
+    str readme = "README.md"
+
+    def export "toml" {
+        str module = "luce_config.toml"
+    }
+}
