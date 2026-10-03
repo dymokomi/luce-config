@@ -3,7 +3,7 @@
 ## not ignored input. A section may be declared dynamic so it accepts arbitrary
 ## keys (for example a keymap), while every other key must be a known setting.
 ## Parsing and schema validation finish before configuration is applied.
-import math
+import luce_std.math
 
 ## Configuration that is malformed or does not match the declared schema.
 pub let invalid: ErrorCode = ErrorCode.package(300)

@@ -1,19 +1,16 @@
 #prisma 4.0
 def package "luce-config" {
     str owner = "dymokomi"
-    str version = "0.1.4"
+    str version = "0.2.0"
     str kind = "package"
     str language = "luce"
     str description = "A small, reusable configuration reader for Luce applications."
     str readme = "README.md"
-
-    def export "toml" {
-        str module = "luce_config.toml"
-    }
+    str[] public = ["toml"]
 
     def dependency "luce-std" {
         str owner = "dymokomi"
-        str version = "^0.1.0"
+        str version = "^0.2.0"
         str path = "../luce-std"
     }
 }

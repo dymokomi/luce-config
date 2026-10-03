@@ -13,7 +13,7 @@ keymap, or a theme in a `.toml` file can read it the same way.
 `Table(source)` parses the text once. Read values with fallbacks:
 
 ```luce
-from toml import Table
+from luce_config.toml import Table
 
 let table = Table(text)
 table.check_keys(["editor.font", "editor.size", "editor.wrap"])
