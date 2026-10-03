@@ -1,7 +1,7 @@
 #prisma 4.0
 def package "luce-config" {
     str owner = "dymokomi"
-    str version = "0.2.0"
+    str version = "0.2.1"
     str kind = "package"
     str language = "luce"
     str description = "A small, reusable configuration reader for Luce applications."
