@@ -50,7 +50,7 @@ the module's test blocks in every compiled mode:
 ```sh
 (cd ../luce-base && ./build.sh)
 (cd ../luce && LUCE_BASE_COMPILER=../luce-base/build/luce-base ./build.sh)
-./test.sh
+luc test
 ```
 
 Licensed under either of Apache-2.0 or MIT at your option.
